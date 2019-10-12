@@ -8,3 +8,8 @@ Test Teardown       Close Application
 Verifying_the_title
     [Tags]    SmokeTest
     Checking the title
+
+Login Application
+    Enter Username      sriharinaidu88@gmail.com
+    Enter Password      password
+    SubmitApplication
