@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8da76b6-ff3c-4744-86ed-3a74ba11876f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Keyword/Elements.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Keyword/Elements.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/ImportantTest.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ImportantTest.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/Util/Setup.robot">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="11" column="15" lean-forward="true" selection-end-line="16" selection-end-column="27" />
+              <caret line="11" column="15" selection-end-line="16" selection-end-column="27" />
               <folding>
                 <element signature="e#0#148#0" expanded="true" />
               </folding>
@@ -28,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Keyword/Elements.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="26" selection-start-line="26" selection-end-line="26" selection-end-column="17" />
+            <state relative-caret-position="203">
+              <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="15" />
               <folding>
                 <element signature="e#0#148#0" expanded="true" />
               </folding>
@@ -40,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/ImportantTest.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="352">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding>
                 <element signature="e#0#156#0" expanded="true" />
               </folding>
@@ -171,14 +175,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="100" y="23" width="1470" height="940" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32900944" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -197,7 +200,7 @@
     <entry file="file://$PROJECT_DIR$/Util/Setup.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="15" lean-forward="true" selection-end-line="16" selection-end-column="27" />
+          <caret line="11" column="15" selection-end-line="16" selection-end-column="27" />
           <folding>
             <element signature="e#0#148#0" expanded="true" />
           </folding>
@@ -206,8 +209,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Keyword/Elements.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="26" selection-start-line="26" selection-end-line="26" selection-end-column="17" />
+        <state relative-caret-position="203">
+          <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="15" />
           <folding>
             <element signature="e#0#148#0" expanded="true" />
           </folding>
@@ -216,8 +219,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/ImportantTest.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="352">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding>
             <element signature="e#0#156#0" expanded="true" />
           </folding>

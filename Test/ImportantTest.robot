@@ -10,6 +10,13 @@ Verifying_the_title
     Checking the title
 
 Login Application
+    [Tags]    SmokeTest
     Enter Username      sriharinaidu88@gmail.com
     Enter Password      password
-    SubmitApplication
+    SubmitApplications
+    Close the Popup
+
+
+
+
+

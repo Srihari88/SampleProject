@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20191013 00:35:25.186" generator="Robot 3.1.2 (Python 2.7.10 on darwin)">
+<robot rpa="false" generated="20191014 19:55:09.469" generator="Robot 3.1.2 (Python 2.7.10 on darwin)">
 <suite source="/Users/reenupanwar/SampleProject/Test/ImportantTest.robot" id="s1" name="ImportantTest">
 <test id="s1-t1" name="Verifying_the_title">
 <kw type="setup" name="Navigate to Application" library="Elements">
@@ -9,10 +9,10 @@
 <arg>${URL}</arg>
 <arg>${Browser}</arg>
 </arguments>
-<msg timestamp="20191013 00:35:25.429" level="INFO">Opening browser 'chrome' to base url 'https://www.flipkart.com/'.</msg>
-<status status="PASS" endtime="20191013 00:35:33.056" starttime="20191013 00:35:25.429"></status>
+<msg timestamp="20191014 19:55:09.814" level="INFO">Opening browser 'chrome' to base url 'https://www.flipkart.com/'.</msg>
+<status status="PASS" endtime="20191014 19:55:20.282" starttime="20191014 19:55:09.814"></status>
 </kw>
-<status status="PASS" endtime="20191013 00:35:33.058" starttime="20191013 00:35:25.428"></status>
+<status status="PASS" endtime="20191014 19:55:20.283" starttime="20191014 19:55:09.813"></status>
 </kw>
 <kw name="Checking the title" library="Elements">
 <kw name="Get Title" library="SeleniumLibrary">
@@ -20,30 +20,30 @@
 <assign>
 <var>${title}</var>
 </assign>
-<msg timestamp="20191013 00:35:33.071" level="INFO">${title} = Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!</msg>
-<status status="PASS" endtime="20191013 00:35:33.071" starttime="20191013 00:35:33.060"></status>
+<msg timestamp="20191014 19:55:20.295" level="INFO">${title} = Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!</msg>
+<status status="PASS" endtime="20191014 19:55:20.296" starttime="20191014 19:55:20.286"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${title}</arg>
 </arguments>
-<msg timestamp="20191013 00:35:33.073" level="INFO">Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!</msg>
-<status status="PASS" endtime="20191013 00:35:33.073" starttime="20191013 00:35:33.072"></status>
+<msg timestamp="20191014 19:55:20.297" level="INFO">Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!</msg>
+<status status="PASS" endtime="20191014 19:55:20.298" starttime="20191014 19:55:20.296"></status>
 </kw>
-<status status="PASS" endtime="20191013 00:35:33.074" starttime="20191013 00:35:33.059"></status>
+<status status="PASS" endtime="20191014 19:55:20.298" starttime="20191014 19:55:20.284"></status>
 </kw>
 <kw type="teardown" name="Close Application" library="Elements">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" endtime="20191013 00:35:33.242" starttime="20191013 00:35:33.075"></status>
+<status status="PASS" endtime="20191014 19:55:20.443" starttime="20191014 19:55:20.300"></status>
 </kw>
-<status status="PASS" endtime="20191013 00:35:33.243" starttime="20191013 00:35:33.074"></status>
+<status status="PASS" endtime="20191014 19:55:20.443" starttime="20191014 19:55:20.298"></status>
 </kw>
 <tags>
 <tag>SmokeTest</tag>
 </tags>
-<status status="PASS" endtime="20191013 00:35:33.243" critical="yes" starttime="20191013 00:35:25.428"></status>
+<status status="PASS" endtime="20191014 19:55:20.444" critical="yes" starttime="20191014 19:55:09.813"></status>
 </test>
 <test id="s1-t2" name="Login Application">
 <kw type="setup" name="Navigate to Application" library="Elements">
@@ -53,10 +53,10 @@
 <arg>${URL}</arg>
 <arg>${Browser}</arg>
 </arguments>
-<msg timestamp="20191013 00:35:33.250" level="INFO">Opening browser 'chrome' to base url 'https://www.flipkart.com/'.</msg>
-<status status="PASS" endtime="20191013 00:35:38.306" starttime="20191013 00:35:33.249"></status>
+<msg timestamp="20191014 19:55:20.450" level="INFO">Opening browser 'chrome' to base url 'https://www.flipkart.com/'.</msg>
+<status status="PASS" endtime="20191014 19:55:26.135" starttime="20191014 19:55:20.448"></status>
 </kw>
-<status status="PASS" endtime="20191013 00:35:38.307" starttime="20191013 00:35:33.248"></status>
+<status status="PASS" endtime="20191014 19:55:26.136" starttime="20191014 19:55:20.448"></status>
 </kw>
 <kw name="Enter Username" library="Elements">
 <arguments>
@@ -68,10 +68,10 @@
 <arg>${username}</arg>
 <arg>${uname}</arg>
 </arguments>
-<msg timestamp="20191013 00:35:38.311" level="INFO">Typing text 'sriharinaidu88@gmail.com' into text field 'xpath=//input[@class='_2zrpKA _1dBPDZ']'.</msg>
-<status status="PASS" endtime="20191013 00:35:38.718" starttime="20191013 00:35:38.309"></status>
+<msg timestamp="20191014 19:55:26.139" level="INFO">Typing text 'sriharinaidu88@gmail.com' into text field 'xpath=//input[@class='_2zrpKA _1dBPDZ']'.</msg>
+<status status="PASS" endtime="20191014 19:55:26.584" starttime="20191014 19:55:26.138"></status>
 </kw>
-<status status="PASS" endtime="20191013 00:35:38.718" starttime="20191013 00:35:38.308"></status>
+<status status="PASS" endtime="20191014 19:55:26.584" starttime="20191014 19:55:26.137"></status>
 </kw>
 <kw name="Enter Password" library="Elements">
 <arguments>
@@ -83,44 +83,42 @@
 <arg>${password}</arg>
 <arg>${pwd}</arg>
 </arguments>
-<msg timestamp="20191013 00:35:38.719" level="INFO">Typing text 'password' into text field 'xpath=//input[@class='_2zrpKA _3v41xv _1dBPDZ']'.</msg>
-<status status="PASS" endtime="20191013 00:35:38.854" starttime="20191013 00:35:38.719"></status>
+<msg timestamp="20191014 19:55:26.587" level="INFO">Typing text 'password' into text field 'xpath=//input[@class='_2zrpKA _3v41xv _1dBPDZ']'.</msg>
+<status status="PASS" endtime="20191014 19:55:26.718" starttime="20191014 19:55:26.586"></status>
 </kw>
-<status status="PASS" endtime="20191013 00:35:38.854" starttime="20191013 00:35:38.718"></status>
+<status status="PASS" endtime="20191014 19:55:26.718" starttime="20191014 19:55:26.585"></status>
 </kw>
-<kw name="SubmitApplication" library="Elements">
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${Submit}</arg>
-</arguments>
-<msg timestamp="20191013 00:35:38.856" level="INFO">Clicking element 'xpath=//button[@class='_2AkmmA _1LctnI _7UHT_c']'.</msg>
-<status status="PASS" endtime="20191013 00:35:38.973" starttime="20191013 00:35:38.855"></status>
-</kw>
-<status status="PASS" endtime="20191013 00:35:38.974" starttime="20191013 00:35:38.855"></status>
+<kw name="SubmitApplications">
+<msg timestamp="20191014 19:55:26.727" level="FAIL">No keyword with name 'SubmitApplications' found. Did you mean:
+    Elements.Submit Application</msg>
+<status status="FAIL" endtime="20191014 19:55:26.728" starttime="20191014 19:55:26.727"></status>
 </kw>
 <kw type="teardown" name="Close Application" library="Elements">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" endtime="20191013 00:35:39.111" starttime="20191013 00:35:38.975"></status>
+<status status="PASS" endtime="20191014 19:55:26.881" starttime="20191014 19:55:26.729"></status>
 </kw>
-<status status="PASS" endtime="20191013 00:35:39.112" starttime="20191013 00:35:38.974"></status>
+<status status="PASS" endtime="20191014 19:55:26.882" starttime="20191014 19:55:26.729"></status>
 </kw>
-<status status="PASS" endtime="20191013 00:35:39.112" critical="yes" starttime="20191013 00:35:33.246"></status>
+<tags>
+<tag>SmokeTest</tag>
+</tags>
+<status status="FAIL" endtime="20191014 19:55:26.882" critical="yes" starttime="20191014 19:55:20.447">No keyword with name 'SubmitApplications' found. Did you mean:
+    Elements.Submit Application</status>
 </test>
 <doc>MyTests</doc>
-<status status="PASS" endtime="20191013 00:35:39.114" starttime="20191013 00:35:25.189"></status>
+<status status="FAIL" endtime="20191014 19:55:26.884" starttime="20191014 19:55:09.474"></status>
 </suite>
 <statistics>
 <total>
-<stat fail="0" pass="2">Critical Tests</stat>
-<stat fail="0" pass="2">All Tests</stat>
+<stat fail="1" pass="1">Critical Tests</stat>
+<stat fail="1" pass="1">All Tests</stat>
 </total>
 <tag>
-<stat fail="0" pass="1">SmokeTest</stat>
+<stat fail="1" pass="1">SmokeTest</stat>
 </tag>
 <suite>
-<stat fail="0" id="s1" name="ImportantTest" pass="2">ImportantTest</stat>
+<stat fail="1" id="s1" name="ImportantTest" pass="1">ImportantTest</stat>
 </suite>
 </statistics>
 <errors>

@@ -27,6 +27,9 @@ Enter Password
 SubmitApplication
     click element      ${Submit}
 
+Close the Popup
+    click element       ${Close}
+
 *** Variables ***
 
 ${URL}          https://www.flipkart.com/
@@ -35,4 +38,5 @@ ${Browser}      chrome
 ${username}     xpath=//input[@class='_2zrpKA _1dBPDZ']
 ${password}     xpath=//input[@class='_2zrpKA _3v41xv _1dBPDZ']
 ${Submit}       xpath=//button[@class='_2AkmmA _1LctnI _7UHT_c']
+${Close}        xpath=//button[@class='_2AkmmA _29YdH8']
 
